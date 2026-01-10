@@ -28,7 +28,4 @@ dist-ssr
 *.mov
 *.avi
 
-# Large assets
-public/
-src/assets/
 
