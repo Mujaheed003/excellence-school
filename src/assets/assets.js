@@ -7,4 +7,4 @@ import testimonial3 from "./testimonial_img_3.jpg";
 
 export const assets = { logo, BuildingImg };
 
-export const testimonials = { testimonial1,testimonial2, testimonial3 };
+export const testimonialsImg = { testimonial1,testimonial2, testimonial3 };
