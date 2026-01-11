@@ -39,6 +39,13 @@ import class4 from "./class_img4.jpg";
 import class5 from "./class_img5.jpg";
 import class6 from "./class_img6.jpg";
 
+import classroom1 from "./classroom_img1.webp";
+import classroom2 from "./classroom_img2.jpg";
+import classroom3 from "./classroom_img3.jpg";
+import classroom4 from "./classroom_img4.webp";
+import classroom5 from "./classroom_img5.jpg";
+import classroom6 from "./classroom_img6.jpg";
+
 export const assets = { logo, BuildingImg };
 
 export const testimonialsImg = { testimonial1,testimonial2, testimonial3 };
@@ -52,3 +59,5 @@ export const staffsImg = { staff1, staff2, staff3, staff4, staff5, staff6, staff
 export const academiesImg = { academy1, academy2, academy3, academy4, academy5, academy6 };
 
 export const classesImg = { class1, class2, class3, class4, class5, class6 };
+
+export const classroomsImg = { classroom1, classroom2, classroom3, classroom4, classroom5, classroom6 };
