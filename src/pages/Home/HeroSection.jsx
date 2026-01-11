@@ -16,7 +16,7 @@ const HeroSection = () => {
       {/* Note: In a real app, you would use a proper path or asset */}
       <div
         className="absolute inset-0 bg-cover bg-center"
-        style={{ backgroundImage: "url('../public/home_bck_img.jpg')" }}
+        style={{ backgroundImage: "url('/home_bck_img.jpg')" }}
       >
         {/* Semi-transparent Dark Overlay */}
         <div className="absolute inset-0 bg-black opacity-50"></div>
