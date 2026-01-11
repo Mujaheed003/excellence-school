@@ -29,7 +29,7 @@ export default function BackgroundVideo() {
           playsInline
           className="absolute inset-0 w-full h-full object-cover bg-cover bg-center bg-fixed"
         >
-          <source src="../public/home_video.mp4" type="video/mp4" />
+          <source src="https://cdn.pixabay.com/video/2022/02/04/106699-673786400_large.mp4" />
           Your browser does not support the video tag.
         </video>
 
