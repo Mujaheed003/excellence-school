@@ -7,7 +7,7 @@ import Sections from "./pages/Sections/Sections";
 import Academics from "./pages/Academics/Academics";
 import Admissions from "./pages/Admissions/Admissions";
 import Gallery from "./pages/Gallery/Gallery";
-import News from "./pages/news/news";
+import News from "./pages/News/News";
 import Contact from "./pages/Contact/Contact";
 import PageNotFound from "./ui/PageNotFound";
 import ScrollToTop from "./ui/ScrollToTop";
