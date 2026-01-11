@@ -8,7 +8,7 @@ const testimonials = [
       "The faculty is dedicated and truly cares about the growth of every student. The focus on character development is what sets this school apart.",
     author: "Sarah Johnson",
     title: "Parent of Class of 2027",
-    avatar: "../src/assets/testimonial_img_1.jpg",
+    avatar: "../../src/assets/testimonial_img_1.jpg",
   },
   {
     id: 2,
@@ -16,7 +16,7 @@ const testimonials = [
       "The holistic approach to education here is remarkable. My daughter has excelled not only academically but also in sports and arts. The supportive environment has helped her discover her true potential.",
     author: "Michael Chen",
     title: "Parent of Class of 2025",
-    avatar: "../src/assets/testimonial_img_2.jpg",
+    avatar: "../../src/assets/testimonial_img_2.jpg",
   },
   {
     id: 3,
@@ -24,7 +24,7 @@ const testimonials = [
       "My son's confidence in Math and Science has soared since joining this school. The innovative teaching methods keep him engaged and excited to learn.",
     author: "David Lee",
     title: "Parent of Class of 2024",
-    avatar: "../src/assets/testimonial_img_3.jpg",
+    avatar: "../../src/assets/testimonial_img_3.jpg",
   },
 ];
 
