@@ -16,19 +16,19 @@ const facilities = [
     icon: FaBook,
     title: "Modern Library",
     text: "Provides a collection of books, digital resources, and quiet study spaces for research and learning.",
-    imagePath: "../src/assets/class_img1.jpg",
+    imagePath: classesImg.class1,
   },
   {
     icon: FaFlask,
     title: "Science Labs",
     text: "Fully equipped laboratories for physics, chemistry, and biology with latest scientific instruments.",
-    imagePath: classesImg.class1,
+    imagePath: classesImg.class2,
   },
   {
     icon: FaDumbbell,
     title: "Sports Complex",
     text: "Indoor and outdoor facilities including basketball courts, soccer fields, and a swimming pool.",
-    imagePath: classesImg.class2,
+    imagePath: classesImg.class3,
   },
   {
     icon: FaMusic,
