@@ -1,4 +1,5 @@
 import React from "react";
+import { journeyImg } from "../../assets/assets"
 
 // 1. Define the data structure for the milestones
 const milestones = [
@@ -7,7 +8,7 @@ const milestones = [
     title: "Foundation",
     description:
       "Our school was established with a vision to provide quality education to the community.",
-    image: "../src/assets/journey_img_1.jpg", // Replace with actual image URL
+    image: journeyImg.journey1, // Replace with actual image URL
     color: "bg-teal-500",
     position: "left",
   },
@@ -16,7 +17,7 @@ const milestones = [
     title: "Expansion",
     description:
       "Our school facilities insisting science his vision to quality complex to enhance learning.",
-    image: "../src/assets/journey_img_2.jpg", // Replace with actual image URL
+    image: journeyImg.journey2, // Replace with actual image URL
     color: "bg-green-500",
     position: "right",
   },
@@ -25,7 +26,7 @@ const milestones = [
     title: "Technology Integration",
     description:
       "Introduced computer labs and digital resources, asserting pioneering techniques in education.",
-    image: "../src/assets/journey_img_3.jpg", // Replace with actual image URL
+    image: journeyImg.journey3, // Replace with actual image URL
     color: "bg-blue-500",
     position: "left",
   },
@@ -34,7 +35,7 @@ const milestones = [
     title: "International Recognition",
     description:
       "Won awards and signed accoldes for accadeimz and innovative teaching methods.",
-    image: "../src/assets/journey_img_4.jpg", // Replace with actual image URL
+    image: journeyImg.journey4, // Replace with actual image URL
     color: "bg-red-500",
     position: "right",
   },
@@ -43,7 +44,7 @@ const milestones = [
     title: "Future Forward",
     description:
       "Continuing our legacy with state-of-the-art facilities and cutting-edge educational programs.",
-    image: "../src/assets/journey_img_5.jpg", // Replace with actual image URL
+    image: journeyImg.journey5, // Replace with actual image URL
     color: "bg-yellow-500",
     position: "left",
   },
