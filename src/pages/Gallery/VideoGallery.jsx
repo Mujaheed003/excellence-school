@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { videosImg } from "../../assets/assets";
 import {
   FaPlay,
   FaTimes,
@@ -13,28 +14,28 @@ const videoData = [
     id: 1,
     title: "Campus Tour 2025",
     icon: FaUniversity,
-    thumbnail: "../src/assets/video_img1.jpeg",
-    videoUrl: "../src/assets/video1.mp4", // Replace with actual video IDs
+    thumbnail: videosImg.video1,
+    videoUrl: "https://pixabay.com/videos/hanover-campus-90933/", // Replace with actual video IDs
   },
   {
     id: 2,
     title: "Student Life Highlights",
     icon: FaUsers,
-    thumbnail: "../src/assets/video_img2.webp",
+    thumbnail: videosImg.video2,
     videoUrl: "../src/assets/video2.mp4",
   },
   {
     id: 3,
     title: "Annual Sports Day",
     icon: FaRunning,
-    thumbnail: "../src/assets/video_img3.jpg",
+    thumbnail: videosImg.video4,
     videoUrl: "../src/assets/video3.mp4",
   },
   {
     id: 4,
     title: "Science Fair 2025",
     icon: FaFlask,
-    thumbnail: "../src/assets/video_img4.webp",
+    thumbnail: videosImg.video4,
     videoUrl: "../src/assets/video4.mp4",
   },
 ];
