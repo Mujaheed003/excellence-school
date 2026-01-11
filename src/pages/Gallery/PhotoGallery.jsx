@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { galleriesImg } from "../../assets/assets";
 import {
   FaImage,
   FaUniversity,
@@ -20,73 +21,73 @@ const galleryData = [
     id: 1,
     category: "Campus Life",
     title: "Main Campus Building",
-    img: "../src/assets/gallery_img1.jpg",
+    img: galleriesImg.gallery1,
   },
   {
     id: 2,
     category: "Events",
     title: "Annual Day Celebration",
-    img: "../src/assets/gallery_img2.jpg",
+    img: galleriesImg.gallery2,
   },
   {
     id: 3,
     category: "Sports",
     title: "Basketball Tournament",
-    img: "../src/assets/gallery_img3.jpg",
+    img: galleriesImg.gallery3,
   },
   {
     id: 4,
     category: "Art & Culture",
     title: "Art Class in Action at the Garden",
-    img: "../src/assets/gallery_img4.jpg",
+    img: galleriesImg.gallery4,
   },
   {
     id: 5,
     category: "Academics",
     title: "Science Liboratory",
-    img: "../src/assets/gallery_img5.jpg",
+    img: galleriesImg.gallery5,
   },
   {
     id: 6,
     category: "Campus Life",
     title: "School Library",
-    img: "../src/assets/gallery_img6.jpg",
+    img: galleriesImg.gallery6,
   },
   {
     id: 7,
     category: "Events",
     title: "Graduation Ceremony",
-    img: "../src/assets/gallery_img7.jpg",
+    img: galleriesImg.gallery7,
   },
   {
     id: 8,
     category: "Sports",
     title: "Track & Feild Day",
-    img: "../src/assets/gallery_img8.jpg",
+    img: galleriesImg.gallery8,
   },
   {
     id: 9,
     category: "Campus Life",
     title: "Play Class",
-    img: "../src/assets/gallery_img9.jpg",
+    img: galleriesImg.gallery9,
   },
   {
     id: 10,
     category: "Academics",
     title: "Robotics Club",
-    img: "../src/assets/gallery_img10.jpg",
+    img: galleriesImg.gallery10,
   },
   {
     id: 11,
     category: "Campus Life",
     title: "School Cafteria",
-    img: "../src/assets/gallery_img11.webp",
+    img: galleriesImg.gallery11.
   },
   {
     id: 12,
     category: "Events",
     title: "Cultural Festival",
-    img: "../src/assets/gallery_img12.jpg",
+    img: galleriesImg.gallery12,
   },
 ];
 
