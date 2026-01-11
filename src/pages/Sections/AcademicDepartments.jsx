@@ -1,5 +1,6 @@
 // AcademicDepartments.jsx
 import React from "react";
+import { academiesImg } from "../../assets/assets",
 import {
   FaFlask,
   FaBookOpen,
@@ -17,42 +18,42 @@ const departments = [
     title: "Science Department",
     subtitle: "Physics, chemistry, biology, and technology",
     link: "/academics/science",
-    imagePath: "../src/assets/academy_img1.jpg",
+    imagePath: academiesImg.academy1,
   },
   {
     icon: FaCalculator,
     title: "Mathematics Department",
     subtitle: "Vector modeling and analytical thinking",
     link: "/academics/math",
-    imagePath: "../src/assets/academy_img2.jpg",
+    imagePath: academiesImg.academy2,
   },
   {
     icon: FaBookOpen,
     title: "Language Arts",
     subtitle: "Develop communication and literary skills",
     link: "/academics/language",
-    imagePath: "../src/assets/academy_img3.jpg",
+    imagePath: academiesImg.academy3,
   },
   {
     icon: FaPaintBrush,
     title: "Arts & Music",
     subtitle: "Express creativity through various art forms",
     link: "/academics/arts",
-    imagePath: "../src/assets/academy_img4.jpg",
+    imagePath: academiesImg.academy4,
   },
   {
     icon: FaGlobeAmericas,
     title: "Social Studies",
     subtitle: "Understand history, culture, and society",
     link: "/academics/social",
-    imagePath: "../src/assets/academy_img5.jpg",
+    imagePath: academiesImg.academy5,
   },
   {
     icon: FaLaptopCode,
     title: "Technology & Innovation",
     subtitle: "Embrace digital literacy and coding skills",
     link: "/academics/tech",
-    imagePath: "../src/assets/academy_img6.jpg",
+    imagePath: academiesImg.academy1,
   },
 ];
 
