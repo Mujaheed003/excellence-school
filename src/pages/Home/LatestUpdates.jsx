@@ -1,6 +1,7 @@
 // LatestUpdates.jsx
 import React, { useState } from "react";
 import { FaArrowRight, FaTimes } from "react-icons/fa";
+import { latestImg } from "../../assets/assets";
 
 // --- Data Structure (Same as before) ---
 const updatesData = [
@@ -11,7 +12,7 @@ const updatesData = [
     text: "Congratulations to all participants in this year's science fair. Outstanding projects showed innovation and...",
     fullContent:
       "The 2025 Annual Science Fair concluded successfully with a ceremony recognizing the innovative work of our students. First place went to Sarah Chen for her project on sustainable water filtration, demonstrating advanced engineering concepts. The event featured over 50 projects spanning biology, physics, and computer science, highlighting the strength of our STEM program.",
-    imagePath: "../src/assets/latest_image_1.jpg",
+    imagePath: latestImg.latest1,
     categoryColor: "bg-green-500",
   },
   {
@@ -21,7 +22,7 @@ const updatesData = [
     text: "Our athletic teams are ready for an exciting spring season. Come support our students at upcoming...",
     fullContent:
       "The spring sports season is officially underway! Teams for Soccer, Track & Field, and Lacrosse have begun practice. We encourage all students and parents to check the school calendar for game schedules and come out to support our talented athletes as they compete in the regional leagues.",
-    imagePath: "../src/assets/latest_image_2.jpg",
+    imagePath: latestImg.latest2,
     categoryColor: "bg-orange-500",
   },
   {
@@ -31,7 +32,7 @@ const updatesData = [
     text: "State-of-the-art STEM laboratory will provide students with cutting-edge technology and hands-on...",
     fullContent:
       "We are thrilled to announce the opening of our new STEM laboratory next month. This facility is equipped with the latest technology, including 3D printers, robotics kits, and virtual reality stations. The lab will enhance our curriculum by providing students with hands-on learning experiences that foster creativity and innovation in science, technology, engineering, and mathematics.",
-    imagePath: "../src/assets/latest_image_3.jpg", // Placeholder
+    imagePath: latestImg.latest3, // Placeholder
     categoryColor: "bg-blue-500",
   },
   {
@@ -41,7 +42,7 @@ const updatesData = [
     text: "Our talented students showcased their artistic abilities in a stunning exhibition that drew praise from...",
     fullContent:
       "The Student Art Exhibition held last weekend was a resounding success, featuring works from over 100 students across various grade levels. The exhibition highlighted diverse mediums, including painting, sculpture, and digital art. Visitors praised the creativity and skill displayed, and several pieces were sold to support the school's art program. We look forward to continuing to nurture our students' artistic talents in future events.",
-    imagePath: "../src/assets/latest_image_4.jpg", // Placeholder
+    imagePath: latestImg.latest4, // Placeholder
     categoryColor: "bg-pink-500",
   },
 ];
