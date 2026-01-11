@@ -64,6 +64,13 @@ import video2 from "./video_img2.webp";
 import video3 from "./video_img3.jpg";
 import video4 from "./video_img4.webp";
 
+import news1 from "./news_img1.jpg";
+import news2 from "./news_img2.jpg";
+import news3 from "./news_img3.jpg";
+import news4 from "./news_img4.jpg";
+import news5 from "./news_img5.jpg";
+import news6 from "./news_img6.jpg";
+
 export const assets = { logo, BuildingImg };
 
 export const testimonialsImg = { testimonial1,testimonial2, testimonial3 };
@@ -83,3 +90,5 @@ export const classroomsImg = { classroom1, classroom2, classroom3, classroom4, c
 export const galleriesImg = { gallery1, gallery2, gallery3, gallery4, gallery5, gallery6, gallery7, gallery8, gallery9, gallery10, gallery11, gallery12 };
 
 export const videosImg = { video1, video2, video3, video4 };
+
+export const newsImg = { news1, news2, news3, news4, news5, news6 };
