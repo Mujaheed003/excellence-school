@@ -1,6 +1,6 @@
 // AcademicDepartments.jsx
 import React from "react";
-import { academiesImg } from "../../assets/assets",
+import { academiesImg } from "../../assets/assets";
 import {
   FaFlask,
   FaBookOpen,
