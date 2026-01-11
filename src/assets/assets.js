@@ -46,6 +46,19 @@ import classroom4 from "./classroom_img4.webp";
 import classroom5 from "./classroom_img5.jpg";
 import classroom6 from "./classroom_img6.jpg";
 
+import gallery1 from "./gallery_img1.jpg";
+import gallery2 from "./gallery_img2.jpg";
+import gallery3 from "./gallery_img3.jpg";
+import gallery4 from "./gallery_img4.jpg";
+import gallery5 from "./gallery_img5.jpg";
+import gallery6 from "./gallery_img6.jpg";
+import gallery7 from "./gallery_img7.jpg";
+import gallery8 from "./gallery_img8.jpg";
+import gallery9 from "./gallery_img9.jpg";
+import gallery10 from "./gallery_img10.jpg";
+import gallery11 from "./gallery_img11.webp";
+import gallery12 from "./gallery_img12.jpg";
+
 export const assets = { logo, BuildingImg };
 
 export const testimonialsImg = { testimonial1,testimonial2, testimonial3 };
@@ -61,3 +74,6 @@ export const academiesImg = { academy1, academy2, academy3, academy4, academy5, 
 export const classesImg = { class1, class2, class3, class4, class5, class6 };
 
 export const classroomsImg = { classroom1, classroom2, classroom3, classroom4, classroom5, classroom6 };
+
+export const galleriesImg = { gallery1, gallery2, gallery3, gallery4, gallery5, gallery6, gallery7, gallery8, gallery9, gallery10, gallery11, gallery12 };
+
