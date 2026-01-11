@@ -81,7 +81,7 @@ const galleryData = [
     id: 11,
     category: "Campus Life",
     title: "School Cafteria",
-    img: galleriesImg.gallery11.
+    img: galleriesImg.gallery11,
   },
   {
     id: 12,
