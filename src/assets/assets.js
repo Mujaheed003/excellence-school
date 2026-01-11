@@ -16,6 +16,15 @@ import journey3 from "./journey_img_3.jpg";
 import journey4 from "./journey_img_4.jpg";
 import journey5 from "./journey_img_5.jpg";
 
+import staff1 from "./staff_Img1.webp";
+import staff2 from "./staff_Img2.jpg";
+import staff3 from "./staff_Img3.webp";
+import staff4 from "./staff_Img4.webp";
+import staff5 from "./staff_Img5.jpg";
+import staff6 from "./staff_Img6.jpg";
+import staff7 from "./staff_Img7.jpg";
+import staff8 from "./staff_Img8.jpg";
+
 export const assets = { logo, BuildingImg };
 
 export const testimonialsImg = { testimonial1,testimonial2, testimonial3 };
@@ -23,3 +32,5 @@ export const testimonialsImg = { testimonial1,testimonial2, testimonial3 };
 export const latestImg = { latest1, latest2, latest3, latest4 };
 
 export const journeyImg = {journey1, journey2, journey3, journey4, journey5};
+
+export const staffsImg = { staff1, staff2, staff3, staff4, staff5, staff6, staff7, staff8 };
