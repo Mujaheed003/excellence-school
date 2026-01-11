@@ -1,4 +1,5 @@
 import React from "react";
+import { classroomsImg } from "../../assets/assets";
 import {
   FaBasketballBall,
   FaMusic,
@@ -12,37 +13,37 @@ const activityData = [
   {
     title: "Sports & Athletics",
     desc: "Competitive teams in basketball, soccer, track, swimming, and more.",
-    img: "../src/assets/classroom_img1.webp",
+    img: classroomsImg.classroom1,
     icon: <FaBasketballBall />,
   },
   {
     title: "Arts & Music",
     desc: "Orchestra, choir, drama club, visual arts, and creative workshops.",
-    img: "../src/assets/classroom_img2.jpg",
+    img: classroomsImg.classroom2,
     icon: <FaMusic />,
   },
   {
     title: "STEM Clubs",
     desc: "Robotics, coding club, science olympiad, and innovation labs.",
-    img: "../src/assets/classroom_img3.jpg",
+    img: classroomsImg.classroom3,
     icon: <FaMicroscope />,
   },
   {
     title: "Leadership",
     desc: "Student council, debate team, model UN, and community service.",
-    img: "../src/assets/classroom_img4.webp",
+    img: classroomsImg.classroom4,
     icon: <FaUsers />,
   },
   {
     title: "Cultural Activities",
     desc: "International club, language societies, and culture celebrations.",
-    img: "../src/assets/classroom_img5.jpg",
+    img: classroomsImg.classroom5,
     icon: <FaGlobe />,
   },
   {
     title: "Academic Competitions",
     desc: "Math olympiad, spelling bee, quiz bowl, and academic challenges.",
-    img: "../src/assets/classroom_img6.jpg",
+    img: classroomsImg.classroom6,
     icon: <FaAward />,
   },
 ];
