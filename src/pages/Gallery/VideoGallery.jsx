@@ -22,21 +22,21 @@ const videoData = [
     title: "Student Life Highlights",
     icon: FaUsers,
     thumbnail: videosImg.video2,
-    videoUrl: "../src/assets/video2.mp4",
+    videoUrl: "https://cdn.pixabay.com/video/2025/08/08/296169_large.mp4",
   },
   {
     id: 3,
     title: "Annual Sports Day",
     icon: FaRunning,
     thumbnail: videosImg.video2,
-    videoUrl: "../src/assets/video3.mp4",
+    videoUrl: "https://cdn.pixabay.com/video/2024/03/22/205193-926528071_large.mp4",
   },
   {
     id: 4,
     title: "Science Fair 2025",
     icon: FaFlask,
     thumbnail: videosImg.video4,
-    videoUrl: "../src/assets/video4.mp4",
+    videoUrl: "https://cdn.pixabay.com/video/2025/03/04/262464_large.mp4",
   },
 ];
 
