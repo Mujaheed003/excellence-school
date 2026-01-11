@@ -1,5 +1,6 @@
 // WorldClassFacilities.jsx
 import React from "react";
+import { classesImg } from "../../assets/assets";
 import {
   FaBook,
   FaFlask,
@@ -21,31 +22,31 @@ const facilities = [
     icon: FaFlask,
     title: "Science Labs",
     text: "Fully equipped laboratories for physics, chemistry, and biology with latest scientific instruments.",
-    imagePath: "../src/assets/class_img2.jpg",
+    imagePath: classesImg.class1,
   },
   {
     icon: FaDumbbell,
     title: "Sports Complex",
     text: "Indoor and outdoor facilities including basketball courts, soccer fields, and a swimming pool.",
-    imagePath: "../src/assets/class_img3.jpg",
+    imagePath: classesImg.class2,
   },
   {
     icon: FaMusic,
     title: "Performing Arts Center",
     text: "State-of-the-art auditorium and music rooms for drama, concerts, and cultural performances.",
-    imagePath: "../src/assets/class_img4.jpg",
+    imagePath: classesImg.class4,
   },
   {
     icon: FaDesktop,
     title: "Computer Labs",
     text: "Advanced technology labs with latest computers and resources for digital learning.",
-    imagePath: "../src/assets/class_img5.jpg",
+    imagePath:classesImg.class5,
   },
   {
     icon: FaUtensils,
     title: "Cafeteria",
     text: "Spacious dining area serving nutritious meals and snacks in a comfortable environment.",
-    imagePath: "../src/assets/class_img6.jpg",
+    imagePath: classesImg.class6,
   },
 ];
 
