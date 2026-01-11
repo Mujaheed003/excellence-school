@@ -53,7 +53,7 @@ const departments = [
     title: "Technology & Innovation",
     subtitle: "Embrace digital literacy and coding skills",
     link: "/academics/tech",
-    imagePath: academiesImg.academy1,
+    imagePath: academiesImg.academy6,
   },
 ];
 
