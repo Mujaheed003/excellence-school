@@ -97,7 +97,7 @@ const Navbar = () => {
             animate={{ scale: 1 }}
             className="mt-4 w-full px-4 py-2 bg-teal-500  hover:bg-teal-600  rounded-full text-white  transition duration-300 font-semibold cursor-pointer"
           >
-            <NavLink to="/admissions">Apply Now</NavLink>
+            <NavLink onClick={toggleMenu} to="/admissions">Apply Now</NavLink>
           </button>
         </div>
       </div>
