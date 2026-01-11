@@ -8,7 +8,7 @@ const HeroSection = () => {
       {/* Note: Use a dedicated CSS class or module for the background image path in a real app */}
       <div
         className="absolute inset-0 bg-cover bg-center"
-        style={{ backgroundImage: "url('../public/about_bck_img.jpg')" }}
+        style={{ backgroundImage: "url('/about_bck_img.jpg')" }}
       >
         {/* Dark Overlay for Text Readability */}
         <div className="absolute inset-0 bg-black opacity-50"></div>
