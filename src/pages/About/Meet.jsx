@@ -1,4 +1,5 @@
 import React from "react";
+import { staffsImg } from "../../assets/assets"
 
 // 1. Data Structure for the Faculty Members
 const facultyData = [
@@ -6,49 +7,49 @@ const facultyData = [
     name: "Dr. Elizabeth Morgan",
     role: "Principal",
     department: "Educational Leadership",
-    image: "../src/assets/staff_Img1.webp", // Replace with actual image URL
+    image: staffsImg.staff1, // Replace with actual image URL
   },
   {
     name: "Prof. James Anderson",
     role: "Head of Sciences",
     department: "Physics & Chemistry",
-    image: "../src/assets/staff_Img2.jpg",
+    image: staffsImg.staff2,
   },
   {
     name: "Ms. Sarah Williams",
     role: "Mathematics Department",
     department: "Advanced Mathematics",
-    image: "../src/assets/staff_Img3.webp",
+    image: staffsImg.staff3,
   },
   {
     name: "Mr. David Chen",
     role: "English Department",
     department: "Literature & Writing",
-    image: "../src/assets/staff_Img4.webp",
+    image: staffsImg.staff4,
   },
   {
     name: "Dr. Maria Rodriguez",
     role: "Arts Department",
     department: "Visual Arts & Music",
-    image: "../src/assets/staff_Img5.jpg",
+    image: staffsImg.staff5,
   },
   {
     name: "Coach Michael Brown",
     role: "Physical Education",
     department: "Sports & Athletics",
-    image: "../src/assets/staff_Img6.jpg",
+    image: staffsImg.staff6,
   },
   {
     name: "Ms. Jennifer Lee",
     role: "Social Studies",
     department: "History & Geography",
-    image: "../src/assets/staff_Img7.jpg",
+    image: staffsImg.staff7,
   },
   {
     name: "Mr. Robert Taylor",
     role: "Technology Department",
     department: "Computer Science",
-    image: "../src/assets/staff_Img8.jpg",
+    image: staffsImg.staff8,
   },
 ];
 
