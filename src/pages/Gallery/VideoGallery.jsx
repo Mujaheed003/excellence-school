@@ -15,7 +15,7 @@ const videoData = [
     title: "Campus Tour 2025",
     icon: FaUniversity,
     thumbnail: videosImg.video1,
-    videoUrl: "https://pixabay.com/videos/hanover-campus-90933/", // Replace with actual video IDs
+    videoUrl: "https://cdn.pixabay.com/video/2021/10/05/90933-629483642_large.mp4", // Replace with actual video IDs
   },
   {
     id: 2,
