@@ -32,6 +32,13 @@ import academy4 from "./academy_img4.jpg";
 import academy5 from "./academy_img5.jpg";
 import academy6 from "./academy_img6.jpg";
 
+import class1 from "./class_img1.jpg";
+import class2 from "./class_img2.jpg";
+import class3 from "./class_img3.jpg";
+import class4 from "./class_img4.jpg";
+import class5 from "./class_img5.jpg";
+import class6 from "./class_img6.jpg";
+
 export const assets = { logo, BuildingImg };
 
 export const testimonialsImg = { testimonial1,testimonial2, testimonial3 };
@@ -43,3 +50,5 @@ export const journeyImg = {journey1, journey2, journey3, journey4, journey5};
 export const staffsImg = { staff1, staff2, staff3, staff4, staff5, staff6, staff7, staff8 };
 
 export const academiesImg = { academy1, academy2, academy3, academy4, academy5, academy6 };
+
+export const classesImg = { class1, class2, class3, class4, class5, class6 };
