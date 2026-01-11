@@ -5,7 +5,7 @@ const HeroSection = () => {
       {/* Background Image Container */}
       <div
         className="absolute inset-0 bg-cover bg-center"
-        style={{ backgroundImage: "url('../public/news_bck_img.jpg')" }} // Use the image with children studying
+        style={{ backgroundImage: "url('/news_bck_img.jpg')" }} // Use the image with children studying
       >
         {/* Dark Overlay for Text Readability */}
         <div className="absolute inset-0 bg-black opacity-40"></div>
