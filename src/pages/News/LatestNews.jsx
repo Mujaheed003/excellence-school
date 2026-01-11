@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { newsImg } from "../../assets/assets";
 import {
   FaUserCircle,
   FaArrowRight,
@@ -14,7 +15,7 @@ const newsData = [
     date: "March 15, 2024",
     author: "Dr. Sarah Johnson",
     desc: "Our robotics team secured first place at the National Science Olympiad, showcasing exceptional innovation. They competed against 50 top schools nationwide, developing a low-cost water filtration robot that can be deployed in rural areas.",
-    img: "../src/assets/news_img1.jpg",
+    img: newsImg.news1,
   },
   {
     id: 2,
@@ -23,7 +24,7 @@ const newsData = [
     date: "March 12, 2024",
     author: "Principal Mark Davis",
     desc: "State-of-the-art STEM laboratory equipped with cutting-edge technology now available for all grade levels. This facility includes 3D printers, VR learning stations, and advanced chemistry modules to prepare students for the future.",
-    img: "../src/assets/news_img2.jpg",
+    img: newsImg.news2,
   },
   {
     id: 3,
@@ -32,7 +33,7 @@ const newsData = [
     date: "March 10, 2024",
     author: "Coach Michael Brown",
     desc: "Our varsity basketball team clinched the regional championship with an impressive undefeated season. The final match was won by a dramatic 3-pointer in the last 5 seconds, securing their spot in the upcoming state finals.",
-    img: "../src/assets/news_img3.jpg",
+    img: newsImg.news3,
   },
   {
     id: 4,
@@ -41,7 +42,7 @@ const newsData = [
     date: "March 8, 2024",
     author: "Ms. Emily Chen",
     desc: "Students from various backgrounds showcased their heritage through music, dance, and traditional cuisine. The event featured over 20 different country stalls and a grand parade in the school auditorium.",
-    img: "../src/assets/news_img4.jpg",
+    img: newsImg.news4,
   },
   {
     id: 5,
@@ -50,7 +51,7 @@ const newsData = [
     date: "March 5, 2024",
     author: "Dr. Robert Wilson",
     desc: "New exchange program established with partner schools in Europe and Asia. Selected students will have the opportunity to study abroad for a semester, fostering global awareness and cultural exchange.",
-    img: "../src/assets/news_img5.jpg",
+    img: newsImg.news5,
   },
   {
     id: 6,
@@ -59,7 +60,7 @@ const newsData = [
     date: "March 3, 2024",
     author: "Ms. Lisa Anderson",
     desc: "Exceptional artwork from our art students is being showcased in the downtown city gallery this month. The exhibition includes paintings, sculptures, and digital art pieces that highlight contemporary themes and personal expression.",
-    img: "../src/assets/news_img6.jpg",
+    img: newsImg.news6,
   },
 ];
 
