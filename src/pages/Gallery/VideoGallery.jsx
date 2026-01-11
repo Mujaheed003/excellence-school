@@ -28,7 +28,7 @@ const videoData = [
     id: 3,
     title: "Annual Sports Day",
     icon: FaRunning,
-    thumbnail: videosImg.video4,
+    thumbnail: videosImg.video2,
     videoUrl: "../src/assets/video3.mp4",
   },
   {
